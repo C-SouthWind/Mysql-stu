@@ -1,0 +1,8 @@
+CREATE TABLE account(
+     id INT PRIMARY KEY AUTO_INCREMENT,
+     NAME VARCHAR(40),
+     money FLOAT
+);
+ insert into account(Name,money) values('A',1000);
+ insert into account(Name,money) values('B',1000);
+ insert into account(Name,money) values('C',1000);
